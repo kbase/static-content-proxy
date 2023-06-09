@@ -7,5 +7,5 @@ else
     echo "AUTODEPLOY environment variable is not set. Skipping Git clone."
 fi
 
-exec /opt/bitnami/scripts/nginx/entrypoint.sh
+exec /opt/bitnami/scripts/nginx/entrypoint.sh /opt/bitnami/scripts/nginx/run.sh
 
