@@ -1,1 +1,1 @@
-# static-content-server
+# static-content-proxy
